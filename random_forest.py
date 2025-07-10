@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
 import joblib
-#this is rainforest esemble which uses soft voting
+#this is random forest ensemble which uses soft voting
 X_train = pd.read_csv('X_train.csv')
 X_test = pd.read_csv('X_test.csv')
 y_train = pd.read_csv('y_train.csv').values.ravel()
