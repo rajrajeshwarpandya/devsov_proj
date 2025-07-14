@@ -8,7 +8,7 @@ X_test = pd.read_csv("X_test.csv")
 y_train = pd.read_csv("y_train.csv").squeeze()
 y_test = pd.read_csv("y_test.csv").squeeze()
 
-knn = KNeighborsClassifier(n_neighbors=5)
+knn = KNeighborsClassifier(n_neighbors=12)
 knn.fit(X_train, y_train)
 y_pred = knn.predict(X_test)
 
