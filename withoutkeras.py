@@ -1,5 +1,3 @@
-# train_and_save_no_keras.py
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
